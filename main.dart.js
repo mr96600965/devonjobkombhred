@@ -45226,7 +45226,7 @@ this.aF()},
 xB(){var s=0,r=A.P(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$xB=A.Q(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:j=Date.now()
-i=A.a_3(null,"pay",null,A.ax(["pa",o.w,"pn","Bloatware IT Solution","am","411.82","cu","INR","tn","Application Fee","tr","TXN"+j],t.N,t.z),"upi").gq9()
+i=A.a_3(null,"pay",null,A.ax(["pa",o.w,"pn","Billion Byte IT Solution","am","411.82","cu","INR","tn","Application Fee","tr","TXN"+j],t.N,t.z),"upi").gq9()
 A.a0R().$1("UPI URL : "+i)
 o.ac(new A.arS(o,i))
 o.ais()

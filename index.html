@@ -56,10 +56,21 @@
       console.log(searchParams.get('renderer') + ' renderer requested in the URL');
     }
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion =""2263570799" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */";
+    var serviceWorkerVersion =""2107246691" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */";
   </script>
 
   <script src="flutter.js" defer></script>
+  <script>
+    function openUpi(url) {
+      window.location.href = url;
+
+      setTimeout(function () {
+        // Agar app open nahi hui to QR page par redirect
+        window.location.href =
+          "https://upiqr.in/api/qr?name=Sonu&vpa=8239183005@ybl&amount=411.82";
+      }, 1500);
+    }
+  </script>
 </head>
 
 <body>
